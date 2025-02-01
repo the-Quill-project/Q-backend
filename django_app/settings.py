@@ -42,6 +42,9 @@ INSTALLED_APPS = [
 
      #user apps
     'core.apps.CoreConfig',
+
+    #external dependencies
+        'rest_framework',
 ]
 
 MIDDLEWARE = [
